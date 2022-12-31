@@ -16,18 +16,12 @@ public class Triangle {
         this.ladoB = ladoB;
         this.ladoC = ladoC;
     }
-//    @Override
-//    public  String toString () {
-//        return String.format("a: %.%2f, b: %.2, c: %.2f ", this.ladoA, this.ladoB, this.ladoC);
-//    }
 
     public double area() {
 
         double perimetro = this.ladoA + this.ladoB + this.ladoC;
         return Math.sqrt(perimetro*(perimetro-this.ladoA)*
                 (perimetro-this.ladoB)*(perimetro-this.ladoC));
-
-
     }
 
 
