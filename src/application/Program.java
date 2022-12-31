@@ -17,26 +17,7 @@ public class Program {
 
        out.println(escaleno.area());
        out.println(isoceles.area());
-
-
-
-
-
-
-
-
-
-
-        //
-
-        //areaTrianguloX = Math.sqrt(perimetro*(perimetro-ladoA)*(perimetro-ladoB)*(perimetro-ladoC));
-
-
-        //out.printf("Area de tringuloX: %.2f", areaTrianguloX);
-
-
-
-
+        
         sc.close();
     }
 
