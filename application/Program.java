@@ -21,21 +21,17 @@ public class Program {
         product.quantity = sc.nextInt();
         out.println("Produto Cadastrado:");
 
-        out.println(product);
-        //out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f%n",
-          //      product.name, product.price, product.quantity, product.totalValueStock());
+        out.println("In stock: "+ product);
 
         out.print("Enter the number of products to be added in stock: ");
         product.addProducts(sc.nextInt());
 
-        out.printf("Updated data: %s, $ %.2f, %d units, Total: $ %.2f%n",
-                product.name, product.price, product.quantity, product.totalValueStock());
+        out.println("Update data: " + product);
 
         out.print("Enter the number of product to be removed from stock: ");
         product.removeProducts(sc.nextInt());
 
-        out.printf("Updated data: %s, $ %.2f, %d units, Total: $ %.2f%n",
-                product.name, product.price, product.quantity, product.totalValueStock());
+        out.println("Update data: "+ product);
 
         sc.close();
     }
