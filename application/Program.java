@@ -21,8 +21,9 @@ public class Program {
         product.quantity = sc.nextInt();
         out.println("Produto Cadastrado:");
 
-        out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f%n",
-                product.name, product.price, product.quantity, product.totalValueStock());
+        out.println(product);
+        //out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f%n",
+          //      product.name, product.price, product.quantity, product.totalValueStock());
 
         out.print("Enter the number of products to be added in stock: ");
         product.addProducts(sc.nextInt());
