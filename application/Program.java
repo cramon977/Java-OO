@@ -14,11 +14,10 @@ public class Program {
 
         out.println("Enter product data: ");
         out.print("Name: ");
-        product.name = sc.next();
+        product.setName(sc.nextLine());
         out.print("Price:");
-        product.price = sc.nextDouble();
-        out.print("Quantity in stock: ");
-        product.quantity = sc.nextInt();
+        product.setPrice(sc.nextDouble());
+
         out.println("Produto Cadastrado:");
 
         out.println("In stock: "+ product);
